@@ -1,13 +1,22 @@
 body {
 	font-family: 'Roboto', sans-serif;
+	background-color: #2D9A86;
+}
+.navbar {
+	background-color: dimgray;
+	margin-left: -15px;
+	margin-right: -15px;
+
 }
 
 #about_image {
 	border-radius: 100%;
+	height: 200px; 
+	width: 200px;
 }
 
 #project_title {
-	color: white;
+	color: black;
 }
 
 #projects_body {
@@ -23,5 +32,5 @@ body {
 }
 .navbar-nav > li > a.active,
 .navbar-nav > li > a:hover {
-	background-color: #00a3cc;
+	background-color: #2D9A86;
 }
